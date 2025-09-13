@@ -1,0 +1,334 @@
+/* --- Header container --- */
+.site-header {
+    background: #6c63ff;
+    color: #fff;
+    padding: 15px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo di kiri */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background: #c40000;
+    color: #f0f0f0;
+}
+
+/* Tombol Signin */
+.signin-btn {
+    background: #fff;
+    color: #6c63ff;
+    border: 2px solid #fff;
+}
+
+.signin-btn:hover {
+    background: #c40000;
+    color: #fff;
+    border-color: #c40000;
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --- Header & Navigasi --- */
+.site-header {
+    background: #c40000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.site-header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Navbar pakai flex */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background: #c40000;
+    color: #f0f0f0;
+}
+
+/* Tombol signin biar lebih menonjol */
+.signin-btn {
+    background: #c40000;
+    color: #c40000;
+    border: 2px solid #fff;
+}
+
+.signin-btn:hover {
+    background: #c40000;
+    color: #fff;
+    border-color: #c40000;
+}
+
+/* Body umum */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eb7474, #c40000);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Header & Footer --- */
+header, footer {
+    background: #c40000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto; /* supaya footer tetap di bawah */
+}
+
+/* --- Halaman Login --- */
+.login-container {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto; /* posisikan di tengah */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.login-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #c40000;
+}
+
+.login-form button {
+    padding: 10px;
+    background: #c40000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background: #c40000;
+}
+
+/* --- Halaman Artikel / Konten --- */
+.content-container {
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.content-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
+    color: #444;
+}
+/* --- Form Hubungi Kami --- */
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #c40000;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #c40000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #c40000;
+}
+/* --- Pesan sukses --- */
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* --- Dashboard Form --- */
+.dashboard-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.dashboard-form textarea {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s;
+    resize: vertical;
+}
+
+.dashboard-form textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+}
+
+.dashboard-form button {
+    padding: 10px;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dashboard-form button:hover {
+    background: #5348c7;
+}
