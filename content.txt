@@ -1,1 +1,31 @@
-Hahahahahahahahahhahahahahaha :D
+Cara Backup Project Local Ke Github
+
+# 1. Masuk ke folder project PHP (jika belum)
+cd path/ke/projectmu
+
+# 2. Cek status perubahan
+git status
+
+# 3. Tambahkan semua perubahan
+git add .
+
+# 4. Commit dengan pesan
+git commit -m "Update beberapa kode pada project PHP"
+
+# 5. Push ke GitHub (sesuaikan branch: main atau master)
+git push origin main
+
+🔹 Jika Belum Pernah Terhubung ke Repo GitHub
+
+Kalau ini pertama kali, tambahkan dulu remote repository:
+
+git remote add origin https://github.com/username/Belajar.git
+git branch -M main
+git push -u origin main
+
+
+Ganti username dengan username GitHub kamu.
+
+🔹 Hasil
+
+Setelah git push, buka repo GitHub → Belajar, maka semua update project PHP kamu akan muncul.
