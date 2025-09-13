@@ -11,7 +11,7 @@
 <body>
     <header class="site-header">
         <div class="header-container">
-            <h1 class="logo">Website Belajar PHP</h1>
+            <h1 class="logo">Website Belajar Backend PHP</h1>
             <nav class="navbar">
                 <div class="nav-left">
                     <a href="index.php">Home</a>
